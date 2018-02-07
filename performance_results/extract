@@ -1,5 +1,0 @@
-#extracting Requests per second from all files
-for bitcode in *;do
-	
-done
-awk 'NR==24' file 

@@ -1,0 +1,1 @@
+Requests per second:    7550.08 [#/sec] (mean)

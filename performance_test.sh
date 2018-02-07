@@ -20,12 +20,10 @@ counter=1
 for executable in $executable_dir/*; do
 	sudo cp $executable $application_dir/$application_name
 	cd $application_dir
-	sudo ./configure
-	sudo make
 	sudo make install
 	cd $results_dir
 	result=$(basename $executable)
-	ab -k -c 1000 -n 500000 http://127.0.0.1/:80 > $result
+	ab -k -c 1000 -n 500000 http://127.0.0.1/:80 >	 $result
 done
 		
 cd ~/autotuning-extras
