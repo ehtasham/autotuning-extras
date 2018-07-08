@@ -1,2 +1,2 @@
 clang-3.8 httpd2.bc -o httpd -lapr-1 -laprutil-1 -lpcre -lcrypt -ldl -lpthread -luuid -lexpat
-clang-3.8 netperf.bc -o  netperf -lapr-1 -laprutil-1 -lpcre -lcrypt -ldl -lpthread -luuid -lexpat -lm -lrt
+clang-3.8 netperf.bc -o  netperf -lapr-1 -laprutil-1 -lpcre -lcrypt -ldl -lpthread -luuid -lexpat -lm -lrt -lbz2
